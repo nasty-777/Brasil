@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Monomakh&family=Oswald:wght@200..700&family=Pacifico&family=Playwrite+DK+Uloopet+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Cormorant Garamond", serif;
+    background-image: url(images/водопады.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1,h6{
+   font-family: "Oswald", sans-serif; 
+}
+
+header {
+    background: linear-gradient(to right, white, beige, rgba(128, 128, 128, 0.274));
+    padding: 10px;
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.logo {
+    display:flex;
+    align-items: center;
+}
+
+.logoimg {
+    width: 20%;
+}
+
+ul {
+    display:flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+.nava {
+    color:rgb(62, 66, 126);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+main {
+    min-height: 80vh;
+}
+
+h2 {
+   font-family: "Oswald", sans-serif;
+   color: white; 
+   font-size: 30px;
+
+    
+}
+
+.info p {
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+footer {
+    background: linear-gradient(to right, white, beige, rgba(128, 128, 128, 0.26));
+    padding: 10px;
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.logof {
+    display:flex;
+    align-items: center;
+}
+
+.logofimg {
+    width: 20%;
+}
+
+.info {
+    padding: 1% 5%;
+    border: rgb(255, 255, 255) 5px solid;
+    border-radius: 20px;
+    margin: 5%;
+    background: rgba(0, 0, 255, 0.425);
+}
